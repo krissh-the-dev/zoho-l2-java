@@ -1,4 +1,4 @@
-package me.devkrish.Console;
+package me.devkrish.console;
 
 import java.util.Arrays;
 import java.util.Scanner;

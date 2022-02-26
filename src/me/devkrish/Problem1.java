@@ -1,6 +1,7 @@
 package me.devkrish;
 
-import me.devkrish.Console.Input;
+import me.devkrish.console.Input;
+import me.devkrish.console.Output;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -23,7 +24,6 @@ public class Problem1 {
                 .mapToInt(n -> n)
                 .toArray();
 
-        System.out.print("Result: ");
-        System.out.println(Arrays.toString(sorted));
+        Output.printWithLabel("Result", Arrays.toString(sorted));
     }
 }
