@@ -16,4 +16,9 @@ public class Input {
         System.out.print(question + ": ");
         return scanner.nextLine().split(" ");
     }
+
+    public static String getLine(String question, Scanner scanner) {
+        System.out.print(question + ": ");
+        return scanner.nextLine();
+    }
 }
